@@ -1,7 +1,6 @@
 html {
     background-color: rgb(222, 222, 222);
-    min-height: 100%; /* Ensure full height */
-    width: 100%; /* Full width */
+    min-height: 100%;
     margin: 0;
 }
 
@@ -16,13 +15,28 @@ body {
         'footer footer';
     grid-template-columns: 1fr 4fr;
     grid-gap: 10px;
-    height: 100vh; /* Full viewport height */
-    width: 100%; /* Full width */
+   min-height: 100vh;
+    width: 100%;
 }
 
-#footer {display: flex;
-grid-area: footer;
-width: 1440px;}
+#shoutout {display: flex;
+grid-area: shoutout;
+height: 100px;
+width: auto;
+background-color: #004e0a;
+color: #efffc9;
+margin: auto;
+text-align: center;
+align-items: center;
+font-style: italic;
+padding-left: 100px;
+padding-right: 100px;
+}
+
+footer {display: flex;
+height: 100px;
+width: auto;
+grid-area: footer;}
 
 header {
     grid-area: header;
@@ -31,7 +45,7 @@ header {
     background-color: #004e0a;
     color: #efffc9;
     height: 175px;
-    width: 1440px;
+    width: 100%;
     justify-items: center;
 }
 
@@ -43,7 +57,7 @@ header {
     flex-direction: column;
     color: #efffc9;
     height: auto;
-    width: 100%;
+    width: auto;
 }
 
 #socialmedianavbar {
