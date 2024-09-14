@@ -22,7 +22,7 @@ body {
 #shoutout {display: flex;
 grid-area: shoutout;
 height: 100px;
-width: auto;
+width: 1440px;
 background-color: #004e0a;
 color: #efffc9;
 margin: auto;
@@ -35,7 +35,7 @@ padding-right: 100px;
 
 footer {display: flex;
 height: 100px;
-width: auto;
+width: 1440px;
 grid-area: footer;}
 
 header {
